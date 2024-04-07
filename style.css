@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color:rgb(20,21,25);
+    ;
+}
+
+
+.container{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    background-color:rgb(31,38,48);
+    height: 400px;
+    width: 400px;
+    padding: 30px;
+    border-radius: 25px;
+}
+.dos{
+    align-items: center;
+}
+
+div.dos img{
+    height:80px;
+    width: 120px;
+}
+.dos p.calificacion{
+    padding:5px;
+    width:50%;
+    text-align: center;
+    font-size: 12px ;
+    border-radius: 15px;
+    background-color:rgb(38,47,56);
+    color:hsl(25, 97%, 53%);
+}
+
+.dos p{
+    text-align: center;
+}
+.botones{
+    display: flex;
+    justify-content: space-between;
+}
+
+.circulo{
+    height: 40px;
+    width: 40px;
+    padding: 12px;
+    border-radius:50%;
+    background-color:rgb(38,47,56);
+    color:hsl(217, 12%, 63%);
+}
+
+.numero:hover{
+    background-color: hsl(25, 97%, 53%);
+    color:hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.active{
+    color:hsl(0, 0%, 100%);
+    background-color:hsl(217, 12%, 63%);
+    cursor: pointer;
+}
+h1{
+    color: hsl(0, 0%, 100%);
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+p{
+    font-size: 15px;
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color:hsl(217, 12%, 63%);
+}
+
+.submit{
+    height: 50px;
+    padding: 10px;
+    background-color:hsl(0, 0%, 100%);
+    color:hsl(25, 97%, 53%);
+    border-radius: 25px;
+    cursor: pointer;
+}
