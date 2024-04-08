@@ -99,4 +99,5 @@ p{
     color:hsl(25, 97%, 53%);
     border-radius: 25px;
     cursor: pointer;
+    border:none;
 }
